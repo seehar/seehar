@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T07:48:05.541Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" version="15.3.0" etag="dbohPrZOVD4_uKMden7y" type="github"><diagram id="TpSGGrzx1AwTt5TZkZn-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-30T11:04:32.036Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="32htKAMMdgjhFt2ltQaF" version="15.3.0" type="github">
+  <diagram id="TpSGGrzx1AwTt5TZkZn-" name="第 1 页">
+    <mxGraphModel dx="1422" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZBzwtqJF4449C9D0FItT-36" value="note" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-37" value="brand: 存json&#xa;按照发帖时间分区" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ZBzwtqJF4449C9D0FItT-36">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-38" value="author" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="90" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-39" value="人设标签" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ZBzwtqJF4449C9D0FItT-38">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-40" value="brand" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="334" y="490" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-41" value="id&#xa;name&#xa;author_count&#xa;note_count" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ZBzwtqJF4449C9D0FItT-40">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-43" value="author-brand多对多" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="150" y="300" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ZBzwtqJF4449C9D0FItT-44" value="author_Id&#xa;brand_id" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="ZBzwtqJF4449C9D0FItT-43">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
