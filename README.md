@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-<!---
-seehar/seehar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+![statys](https://github-readme-stats.vercel.app/api/wakatime?username=seehar&theme=tokyonight)
+
+[![seehar's GitHub stats](https://github-readme-stats.vercel.app/api?username=seehar&show_icons=true&theme=tokyonight)](https://github.com/seehar/github-readme-stats)
+
